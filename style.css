@@ -4,6 +4,7 @@ body {
   padding: 0;
   background-color: #7a6e6e;
   font-family: Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 @keyframes unquietBackground {
@@ -215,9 +216,11 @@ input[type="submit"] {
 
   .container {
     grid-template-columns: repeat(auto-fit, minmax(5, 1fr));
+   
   }
   .well {
     font-size: small;
+  
   }
 }
 
@@ -225,5 +228,6 @@ input[type="submit"] {
 
   .container {
     grid-template-columns: repeat(auto-fit, minmax(5, 1fr));
+   
   }
 }
